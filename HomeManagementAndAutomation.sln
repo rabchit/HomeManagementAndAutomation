@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{A06DC1FD-98BD-47AA-B6F0-DEDFB3490320}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{224CE103-DFFD-4F74-A7FA-4E620A4F46BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{098A0831-AB14-4793-A990-A26757D10CD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D7429C62-39F3-422A-8835-97828195A6F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{D19F8309-B115-4AA1-A628-A76FFABF4D95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManagementAndAutomation.Application", "HomeManagementAndAutomation.Application\HomeManagementAndAutomation.Application.csproj", "{A915A3AA-52F3-4309-91D8-3AE7928413EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManagementAndAutomation.Domain", "HomeManagementAndAutomation.Domain\HomeManagementAndAutomation.Domain.csproj", "{70D21932-8FF1-4C97-A1B1-9EEA27F39A04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManagementAndAutomation.Identity", "HomeManagementAndAutomation.Identity\HomeManagementAndAutomation.Identity.csproj", "{50670D02-FDE3-4F53-A318-967F3BBD39D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManagementAndAutomation.Infrastructure", "HomeManagementAndAutomation.Infrastructure\HomeManagementAndAutomation.Infrastructure.csproj", "{0F44EAF2-6F01-4B19-BEC5-B62659D62F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManagementAndAutomation.Persistence", "HomeManagementAndAutomation.Persistence\HomeManagementAndAutomation.Persistence.csproj", "{A6AE9FE8-DDA7-455D-A4D6-D116236B5F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeManagementAndAutomation.API", "HomeManagementAndAutomation.API\HomeManagementAndAutomation.API.csproj", "{F51425DA-E52E-4468-99E1-5B96E002044F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A915A3AA-52F3-4309-91D8-3AE7928413EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A915A3AA-52F3-4309-91D8-3AE7928413EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A915A3AA-52F3-4309-91D8-3AE7928413EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A915A3AA-52F3-4309-91D8-3AE7928413EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D21932-8FF1-4C97-A1B1-9EEA27F39A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D21932-8FF1-4C97-A1B1-9EEA27F39A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D21932-8FF1-4C97-A1B1-9EEA27F39A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D21932-8FF1-4C97-A1B1-9EEA27F39A04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50670D02-FDE3-4F53-A318-967F3BBD39D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50670D02-FDE3-4F53-A318-967F3BBD39D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50670D02-FDE3-4F53-A318-967F3BBD39D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50670D02-FDE3-4F53-A318-967F3BBD39D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F44EAF2-6F01-4B19-BEC5-B62659D62F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F44EAF2-6F01-4B19-BEC5-B62659D62F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F44EAF2-6F01-4B19-BEC5-B62659D62F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F44EAF2-6F01-4B19-BEC5-B62659D62F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6AE9FE8-DDA7-455D-A4D6-D116236B5F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AE9FE8-DDA7-455D-A4D6-D116236B5F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AE9FE8-DDA7-455D-A4D6-D116236B5F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AE9FE8-DDA7-455D-A4D6-D116236B5F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51425DA-E52E-4468-99E1-5B96E002044F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51425DA-E52E-4468-99E1-5B96E002044F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51425DA-E52E-4468-99E1-5B96E002044F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51425DA-E52E-4468-99E1-5B96E002044F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{098A0831-AB14-4793-A990-A26757D10CD3} = {A06DC1FD-98BD-47AA-B6F0-DEDFB3490320}
+		{D7429C62-39F3-422A-8835-97828195A6F9} = {A06DC1FD-98BD-47AA-B6F0-DEDFB3490320}
+		{D19F8309-B115-4AA1-A628-A76FFABF4D95} = {A06DC1FD-98BD-47AA-B6F0-DEDFB3490320}
+		{A915A3AA-52F3-4309-91D8-3AE7928413EF} = {D7429C62-39F3-422A-8835-97828195A6F9}
+		{70D21932-8FF1-4C97-A1B1-9EEA27F39A04} = {D7429C62-39F3-422A-8835-97828195A6F9}
+		{50670D02-FDE3-4F53-A318-967F3BBD39D7} = {D19F8309-B115-4AA1-A628-A76FFABF4D95}
+		{0F44EAF2-6F01-4B19-BEC5-B62659D62F22} = {D19F8309-B115-4AA1-A628-A76FFABF4D95}
+		{A6AE9FE8-DDA7-455D-A4D6-D116236B5F98} = {D19F8309-B115-4AA1-A628-A76FFABF4D95}
+		{F51425DA-E52E-4468-99E1-5B96E002044F} = {098A0831-AB14-4793-A990-A26757D10CD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C42CA19-F3B6-4EBC-B332-C246C4D4209C}
+	EndGlobalSection
+EndGlobal
