@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HomeManagementAndAutomation.Application.DTOs.ProductProperties;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,6 @@ namespace HomeManagementAndAutomation.Application.DTOs.Products
         public string ProductName { get; set; }
         public string Description { get; set; }
         public string PacketSize { get; set; }
-        public List<ProductPropertiesDto> ProductProperties { get; set; }
+        public List<ProductPropertyDto> ProductProperties { get; set; }
     }
 }

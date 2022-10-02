@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HomeManagementAndAutomation.Domain.Entity
 {
-    public class ProductProperty:BaseEntity
+    public class ProductProperty:BaseDomainEntity
     {
         public Product Product { get; set; }
         public int ProductId { get; set; }

@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entity\Common\" />
     <Folder Include="MappingProfile\" />
   </ItemGroup>
 

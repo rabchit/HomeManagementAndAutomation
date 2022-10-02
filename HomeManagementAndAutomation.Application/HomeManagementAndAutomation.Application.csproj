@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,16 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\Product\**" />
+    <EmbeddedResource Remove="Features\Product\**" />
+    <None Remove="Features\Product\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Contracts\Identity\" />
     <Folder Include="Contracts\Infrastructure\" />
-    <Folder Include="Contracts\Persistence\" />
     <Folder Include="DTOs\Common\" />
-    <Folder Include="DTOs\Products\Validator\" />
-    <Folder Include="Features\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.2.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
